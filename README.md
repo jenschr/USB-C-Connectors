@@ -4,8 +4,7 @@ Various cheap USB-C connectors from LCSC for KiCad
 ## Why?
 I want to move over to use USB C connectors in my designs and I want more options than just using the few predefined in Kicad.
 
-## Price
-Amphenol and Molex are fantastic connectors, but Amphenol 12401548E4#2A is no longer being made and teh same applies to Molex 105444. The third Type C connector with footprint that comes with Kicad is 12401610E4#2A. It's 2 USD for one and 1.35 USD for 100.
+Price is also relevant. Amphenol and Molex are fantastic connectors, but Amphenol 12401548E4#2A is no longer being made and teh same applies to Molex 105444. The third Type C connector with footprint that comes with Kicad is 12401610E4#2A. It's 2 USD for one and 1.35 USD for 100.
 
 If you just want a USB C connector for applying power, you can get this from a good Korean factory for 0.21 USD at LCSC. This is if you only buy a single connector. Buy a hundred and save 7 of those cents - down to 0.14 UDS. Want USB 2.0? The price starts at 0.38 UDS for just one, but gets down to 0.24 USD if you buy a hundred. A fully featured USB 3.1 connector is 0.81 USD, so still below half the price.
 
