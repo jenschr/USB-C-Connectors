@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name USB-C-Power-tester)(type KiCad)(uri /Users/jensa/Documents/GitCode/USB-C-Connectors/Kicad/Footprints/USB-C-Power-tester.pretty)(options "")(descr ""))
+)
