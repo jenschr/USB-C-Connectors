@@ -1,5 +1,5 @@
 # USB-C-Connectors
-Various cheap USB-C connectors from LCSC for KiCad. Bried rundown of the USB standeards here and details on how to use these boards
+Various cheap USB-C connectors from LCSC for KiCad. Brief [rundown of the USB standards here](https://flashgamer.com/blog/comments/usb-type-c-and-usb-2.0-3.0-3.1-3.2) and details on [how to use these boards here.](https://flashgamer.com/blog/comments/implementing-usb-type-c-and-usb-3-1)
 
 ## Why?
 I want to move over to use USB C connectors in my designs and I want more options than just using the few predefined in Kicad.
