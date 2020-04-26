@@ -1,0 +1,239 @@
+EESchema Schematic File Version 4
+LIBS:USB-C-USB-3.2-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R1
+U 1 1 5EA30E3B
+P 1450 4250
+F 0 "R1" V 1243 4250 50  0000 C CNN
+F 1 "1M" V 1334 4250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1380 4250 50  0001 C CNN
+F 3 "~" H 1450 4250 50  0001 C CNN
+	1    1450 4250
+	0    1    1    0   
+$EndComp
+Text Notes 2750 1150 0    50   ~ 0
+See USB IF spec, Microchip Appnote AN1953, chapter 3.0 to set resistors
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5EA42B00
+P 2200 5300
+F 0 "H3" H 2300 5346 50  0000 L CNN
+F 1 "MountingHole" H 2300 5255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 2200 5300 50  0001 C CNN
+F 3 "~" H 2200 5300 50  0001 C CNN
+	1    2200 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5EA434FB
+P 1950 4750
+F 0 "H1" H 2050 4796 50  0000 L CNN
+F 1 "MountingHole" H 2050 4705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1950 4750 50  0001 C CNN
+F 3 "~" H 1950 4750 50  0001 C CNN
+	1    1950 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small L1
+U 1 1 5EA50879
+P 3700 5150
+F 0 "L1" H 3700 5425 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 3700 4925 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo_5.7x6mm_Copper" H 3700 5150 50  0001 C CNN
+F 3 "~" H 3700 5150 50  0001 C CNN
+	1    3700 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small L2
+U 1 1 5EA50B02
+P 4650 5450
+F 0 "L2" H 4650 5725 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 4650 5225 50  0001 C CNN
+F 2 "BitrafSmdKit2:Bitraf_logo_3.0_x_7.5_mm" H 4650 5450 50  0001 C CNN
+F 3 "~" H 4650 5450 50  0001 C CNN
+	1    4650 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_C_Plug P1
+U 1 1 5EA36D54
+P 1600 2650
+F 0 "P1" H 1707 3917 50  0000 C CNN
+F 1 "USB_C_Plug" H 1707 3826 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_Amphenol_12401548E4-2A" H 1750 2650 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1750 2650 50  0001 C CNN
+	1    1600 2650
+	1    0    0    -1  
+$EndComp
+Connection ~ 1600 4250
+Wire Wire Line
+	1600 4250 2750 4250
+$Comp
+L Connector:Screw_Terminal_01x16 J1
+U 1 1 5EA622F5
+P 4550 2800
+F 0 "J1" H 4630 2792 50  0000 L CNN
+F 1 "Screw_Terminal_01x16" H 4630 2701 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical" H 4550 2800 50  0001 C CNN
+F 3 "~" H 4550 2800 50  0001 C CNN
+	1    4550 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 1650 4100 1650
+Wire Wire Line
+	4100 1650 4100 2100
+Wire Wire Line
+	4100 2100 4350 2100
+$Comp
+L power:GND #PWR0101
+U 1 1 5EA67F76
+P 2750 4250
+F 0 "#PWR0101" H 2750 4000 50  0001 C CNN
+F 1 "GND" V 2755 4122 50  0000 R CNN
+F 2 "" H 2750 4250 50  0001 C CNN
+F 3 "" H 2750 4250 50  0001 C CNN
+	1    2750 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5EA687BA
+P 4350 3600
+F 0 "#PWR0102" H 4350 3350 50  0001 C CNN
+F 1 "GND" V 4450 3650 50  0000 R CNN
+F 2 "" H 4350 3600 50  0001 C CNN
+F 3 "" H 4350 3600 50  0001 C CNN
+	1    4350 3600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2200 1850 4050 1850
+Wire Wire Line
+	4050 1850 4050 2200
+Wire Wire Line
+	4050 2200 4350 2200
+Wire Wire Line
+	2200 2150 3300 2150
+Wire Wire Line
+	2200 2750 3150 2750
+Wire Wire Line
+	2200 3250 3400 3250
+Wire Wire Line
+	3450 3350 2200 3350
+Wire Wire Line
+	2200 3850 3950 3850
+Wire Wire Line
+	4350 3500 4150 3500
+Wire Wire Line
+	4150 3500 4150 3950
+Wire Wire Line
+	4150 3950 2200 3950
+Text Label 2350 3950 0    50   ~ 0
+SBU2
+Text Label 2350 3850 0    50   ~ 0
+SBU1
+Text Label 2350 3650 0    50   ~ 0
+TX2+
+Text Label 2350 3550 0    50   ~ 0
+TX2-
+Text Label 2350 3350 0    50   ~ 0
+RX2+
+Text Label 2350 3250 0    50   ~ 0
+RX2-
+Text Label 2350 3050 0    50   ~ 0
+TX1+
+Text Label 2350 2950 0    50   ~ 0
+TX1-
+Text Label 2350 2750 0    50   ~ 0
+RX1+
+Text Label 2350 2650 0    50   ~ 0
+RX1-
+Text Label 2350 2350 0    50   ~ 0
+D+
+Text Label 2350 2150 0    50   ~ 0
+D-
+Text Label 2350 1950 0    50   ~ 0
+CC2
+Text Label 2350 1850 0    50   ~ 0
+CC1
+Wire Wire Line
+	2200 2650 3200 2650
+Wire Wire Line
+	3400 2700 3400 3250
+Wire Wire Line
+	2200 2350 3350 2350
+Wire Wire Line
+	3450 2600 3450 3350
+Wire Wire Line
+	3200 2650 3200 3300
+Wire Wire Line
+	3200 3300 4350 3300
+Wire Wire Line
+	3150 2750 3150 3200
+Wire Wire Line
+	3150 3200 4350 3200
+Wire Wire Line
+	2200 3050 4100 3050
+Wire Wire Line
+	4100 3050 4100 3100
+Wire Wire Line
+	4100 3100 4350 3100
+Wire Wire Line
+	2200 2950 4150 2950
+Wire Wire Line
+	4150 2950 4150 3000
+Wire Wire Line
+	4150 3000 4350 3000
+Wire Wire Line
+	3350 2900 4350 2900
+Wire Wire Line
+	3350 2350 3350 2900
+Wire Wire Line
+	3300 2800 4350 2800
+Wire Wire Line
+	3300 2150 3300 2800
+Wire Wire Line
+	3400 2700 4350 2700
+Wire Wire Line
+	3450 2600 4350 2600
+Wire Wire Line
+	2200 3650 3750 3650
+Wire Wire Line
+	3750 3650 3750 2500
+Wire Wire Line
+	3750 2500 4350 2500
+Wire Wire Line
+	4350 2400 3650 2400
+Wire Wire Line
+	3650 2400 3650 3550
+Wire Wire Line
+	3650 3550 2200 3550
+Wire Wire Line
+	3850 1950 3850 3400
+Wire Wire Line
+	3850 3400 4350 3400
+Wire Wire Line
+	2200 1950 3850 1950
+Wire Wire Line
+	3950 3850 3950 2300
+Wire Wire Line
+	3950 2300 4350 2300
+$EndSCHEMATC
