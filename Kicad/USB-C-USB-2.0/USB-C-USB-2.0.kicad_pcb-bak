@@ -951,7 +951,7 @@
   (gr_arc (start 41.8 64.4) (end 41.8 60.4) (angle -90) (layer Edge.Cuts) (width 0.05))
   (gr_arc (start 41.8 79.4) (end 37.8 79.4) (angle -90) (layer Edge.Cuts) (width 0.05))
   (gr_arc (start 66.8 79.4) (end 66.8 83.4) (angle -90) (layer Edge.Cuts) (width 0.05))
-  (gr_text "GND\n\nVBUS\n\nCC1\n\nCC2\n\nVBUS\n\nGND\n\nDP/A7\n\nDP/B7\n\nDM/A6\n\nDM/B6\n\nSBU1\n\nSBU2" (at 54.4 79 90) (layer F.SilkS) (tstamp 5EA3630F)
+  (gr_text "GND\n\nVBUS\n\nCC1\n\nCC2\n\nVBUS\n\nGND\n\nDP/A7\n\nDP/B7\n\nDM/A6\n\nDM/B6\n\nSBU1\n\nSBU2" (at 54.4 78.6 90) (layer F.SilkS) (tstamp 5EA3630F)
     (effects (font (size 0.78 0.8) (thickness 0.1)) (justify right))
   )
   (gr_text "See USB-IF spec, Microchip Appnote\nAN1953, chapter 3.0 to set resistors" (at 54.6 70.8) (layer B.SilkS) (tstamp 5EA34FD5)

@@ -127,10 +127,6 @@ $EndComp
 Wire Wire Line
 	2200 1850 4050 1850
 Wire Wire Line
-	4050 1850 4050 2200
-Wire Wire Line
-	4050 2200 4350 2200
-Wire Wire Line
 	2200 2150 3300 2150
 Wire Wire Line
 	2200 2750 3150 2750
@@ -147,33 +143,33 @@ Wire Wire Line
 Wire Wire Line
 	4150 3950 2200 3950
 Text Label 2350 3950 0    50   ~ 0
-SBU2
+B8_SBU2
 Text Label 2350 3850 0    50   ~ 0
-SBU1
+A8_SBU1
 Text Label 2350 3650 0    50   ~ 0
-TX2+
+B2_TX2+
 Text Label 2350 3550 0    50   ~ 0
-TX2-
+B3_TX2-
 Text Label 2350 3350 0    50   ~ 0
-RX2+
+A11_RX2+
 Text Label 2350 3250 0    50   ~ 0
-RX2-
+A10_RX2-
 Text Label 2350 3050 0    50   ~ 0
-TX1+
+A2_TX1+
 Text Label 2350 2950 0    50   ~ 0
-TX1-
+A3_TX1-
 Text Label 2350 2750 0    50   ~ 0
-RX1+
+B11_RX1+
 Text Label 2350 2650 0    50   ~ 0
-RX1-
+B10_RX1-
 Text Label 2350 2350 0    50   ~ 0
-D+
+A6_D+
 Text Label 2350 2150 0    50   ~ 0
-D-
+A7_D-
 Text Label 2350 1950 0    50   ~ 0
-CC2
+B5_CC2
 Text Label 2350 1850 0    50   ~ 0
-CC1
+A5_CC1
 Wire Wire Line
 	2200 2650 3200 2650
 Wire Wire Line
@@ -233,7 +229,11 @@ Wire Wire Line
 Wire Wire Line
 	2200 1950 3850 1950
 Wire Wire Line
-	3950 3850 3950 2300
+	4050 2300 4350 2300
 Wire Wire Line
-	3950 2300 4350 2300
+	4050 1850 4050 2300
+Wire Wire Line
+	4350 2200 3950 2200
+Wire Wire Line
+	3950 2200 3950 3850
 $EndSCHEMATC

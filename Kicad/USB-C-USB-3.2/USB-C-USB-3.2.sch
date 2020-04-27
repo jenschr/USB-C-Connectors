@@ -142,34 +142,6 @@ Wire Wire Line
 	4150 3500 4150 3950
 Wire Wire Line
 	4150 3950 2200 3950
-Text Label 2350 3950 0    50   ~ 0
-SBU2
-Text Label 2350 3850 0    50   ~ 0
-SBU1
-Text Label 2350 3650 0    50   ~ 0
-TX2+
-Text Label 2350 3550 0    50   ~ 0
-TX2-
-Text Label 2350 3350 0    50   ~ 0
-RX2+
-Text Label 2350 3250 0    50   ~ 0
-RX2-
-Text Label 2350 3050 0    50   ~ 0
-TX1+
-Text Label 2350 2950 0    50   ~ 0
-TX1-
-Text Label 2350 2750 0    50   ~ 0
-RX1+
-Text Label 2350 2650 0    50   ~ 0
-RX1-
-Text Label 2350 2350 0    50   ~ 0
-D+
-Text Label 2350 2150 0    50   ~ 0
-D-
-Text Label 2350 1950 0    50   ~ 0
-CC2
-Text Label 2350 1850 0    50   ~ 0
-CC1
 Wire Wire Line
 	2200 2650 3200 2650
 Wire Wire Line
@@ -236,4 +208,32 @@ Wire Wire Line
 	4350 2200 3950 2200
 Wire Wire Line
 	3950 2200 3950 3850
+Text Label 2350 3950 0    50   ~ 0
+SBU2
+Text Label 2350 3850 0    50   ~ 0
+SBU1
+Text Label 2350 3650 0    50   ~ 0
+TX2+
+Text Label 2350 3550 0    50   ~ 0
+TX2-
+Text Label 2350 3350 0    50   ~ 0
+RX2+
+Text Label 2350 3250 0    50   ~ 0
+RX2-
+Text Label 2350 3050 0    50   ~ 0
+TX1+
+Text Label 2350 2950 0    50   ~ 0
+TX1-
+Text Label 2350 2750 0    50   ~ 0
+RX1+
+Text Label 2350 2650 0    50   ~ 0
+RX1-
+Text Label 2350 2350 0    50   ~ 0
+D+
+Text Label 2350 2150 0    50   ~ 0
+D-
+Text Label 2350 1950 0    50   ~ 0
+CC2
+Text Label 2350 1850 0    50   ~ 0
+CC1
 $EndSCHEMATC
