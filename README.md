@@ -1,3 +1,5 @@
+2020.05.04: I got the first batch of boards today. The Power board is good, the USB 2.0 boards requires that you cut off two tiny alignment pins (plastic) that I forgot to include in the footprint, but works otherwise great. The USB 3.1 board has an error that cannot be fixed, so I've made a new version of that and sent it to PCBWay.
+
 # USB-C-Connectors
 Various cheap USB-C connectors from LCSC for KiCad. Brief [rundown of the USB standards here](https://flashgamer.com/blog/comments/usb-type-c-and-usb-2.0-3.0-3.1-3.2) and details on [how to use these boards here.](https://flashgamer.com/blog/comments/implementing-usb-type-c-and-usb-3-1)
 
