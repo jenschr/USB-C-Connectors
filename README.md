@@ -1,5 +1,3 @@
-2020.05.04: I got the first batch of boards today. The Power board is good, the USB 2.0 boards requires that you cut off two tiny alignment pins (plastic) that I forgot to include in the footprint, but works otherwise great. The USB 3.1 board has an error that cannot be fixed, so I've made a new version of that and sent it to PCBWay.
-
 # USB-C-Connectors
 Various cheap USB-C connectors from LCSC for KiCad. Brief [rundown of the USB standards here](https://flashgamer.com/blog/comments/usb-type-c-and-usb-2.0-3.0-3.1-3.2) and details on [how to use these boards here.](https://flashgamer.com/blog/comments/implementing-usb-type-c-and-usb-3-1)
 
@@ -9,6 +7,10 @@ I want to move over to use USB C connectors in my designs and I want more option
 Price is also relevant. Amphenol and Molex are fantastic connectors, but of the three footprints that come with Kicad 5, Amphenol 12401548E4#2A and Molex 105444 are no longer being made. The third Type C connector is 12401610E4#2A. It's 2 USD for one and 1.35 USD for 100 pcs.
 
 If you just want a USB C connector for applying power, you can get this from a good Korean factory for 0.21 USD at LCSC. This is if you only buy a single connector. Buy a hundred and save 7 of those cents - down to 0.14 USD. Want USB 2.0? The price starts at 0.38 USD for just one, but gets down to 0.24 USD if you buy a hundred. A fully featured USB 3.1 connector is 0.81 USD, so still below half the price.
+
+## Errata
+''2020.05.04:''
+Got the first batch of boards today. The Power board was good, the USB 2.0 board required that you cut off two tiny alignment pins (plastic) that I forgot to include in the footprint, but works otherwise great. The USB 3.1 board has an error that cannot be fixed (pins in wrong place), so I've made a new version of that and sent it to PCBWay. All footprints in the repo should now be good, but it'll take about a week until I can confirm that.
 
 ## Kicad files:
 I've made breakout boards to test my footprints. The files are available in the Kicad repo, but they're not yet tested. I just placed orders for them on April 25th 2020. I'll upload pictures of the final boards when I get them.
