@@ -9,6 +9,9 @@ Price is also relevant. Amphenol and Molex are fantastic connectors, but of the 
 If you just want a USB C connector for applying power, you can get this from a good Korean factory for 0.21 USD at LCSC. This is if you only buy a single connector. Buy a hundred and save 7 of those cents - down to 0.14 USD. Want USB 2.0? The price starts at 0.38 USD for just one, but gets down to 0.24 USD if you buy a hundred. A fully featured USB 3.1 connector is 0.81 USD, so still below half the price.
 
 ## Errata
+''2020.05.20:''
+Got the second batch of boards. All 3 footprints are now golden!
+
 ''2020.05.04:''
 Got the first batch of boards today. The Power board was good, the USB 2.0 board required that you cut off two tiny alignment pins (plastic) that I forgot to include in the footprint, but works otherwise great. The USB 3.1 board has an error that cannot be fixed (pins in wrong place), so I've made a new version of that and sent it to PCBWay. All footprints in the repo should now be good, but it'll take about a week until I can confirm that.
 
