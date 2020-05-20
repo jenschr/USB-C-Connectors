@@ -16,7 +16,7 @@ Got the second batch of boards. All 3 footprints are now golden!
 Got the first batch of boards today. The Power board was good, the USB 2.0 board required that you cut off two tiny alignment pins (plastic) that I forgot to include in the footprint, but works otherwise great. The USB 3.1 board has an error that cannot be fixed (pins in wrong place), so I've made a new version of that and sent it to PCBWay. All footprints in the repo should now be good, but it'll take about a week until I can confirm that.
 
 ## Kicad files:
-I've made breakout boards to test my footprints. The files are available in the Kicad repo and these are now tested and confirmed. I just placed orders for them on April 25th 2020. I'll upload pictures of the final boards when I get them.
+I've made breakout boards to test my footprints. The files are available in the Kicad repo and these are now tested and confirmed. I placed orders for the first boards on April 25th 2020.
  
 ### Footprints
 Library with footprints for a few low priced Type C connectors that I'm currently testing from "Korean Hroparts Elec". I buy the parts at LCSC.
