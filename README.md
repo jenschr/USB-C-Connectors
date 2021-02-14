@@ -25,15 +25,16 @@ Library with footprints for a few low priced Type C connectors that I'm currentl
 Simple Breakout board allowing you to play with setting CC1 & CC2 using easy to solder 0805 resistors. Read up on the [USB-IF spec and what resistors to use here](http://ww1.microchip.com/downloads/en/appnotes/00001953a.pdf). These connectors offer no data, but can let you pull or deliver up to 3A/5V power from capable devices.
 
 Compatible part numbers:
-- TYPE-C-31-M-17 @ LCSC
-- USB4125-GF-A @ Digikey
+- TYPE-C-31-M-17 from Korean Hroparts Elec @ LCSC
+- USB4125-GF-A from GCT @ Digikey
 
 ### USB-C-USB-2.0
 Simple Breakout board exposing all you need for USB 2.0 using a Type C connector. Also has room for resistors for CC1 & CC2 as the power breakout above.
 
 Compatible part numbers:
-- TYPE-C-31-M-12 @ LCSC
-- USB4105-GF-A @ Digikey
+- TYPE-C-31-M-12 from Korean Hroparts Elec @ LCSC
+- USB4105-GF-A from GCT @ Digikey
+- CU3216SASDLR010-NH from Civlux @ Digikey
 
 ### USB-C-USB-3.2
 Breakout board for a fully featured USB 3.2 connector that can be used with a low priced IC for cable detection, orientation, data switching and power settings. 
@@ -41,9 +42,9 @@ Breakout board for a fully featured USB 3.2 connector that can be used with a lo
 When using this board, don't forget that to get higher speeds to work, you'll need sub-millimeter precision on your cable lengths. All RX/TX pairs should be the exact same length, just as they are one the PCB. Don't expect SuperSpeed to work if you're using a breadboard for prototyping.
 
 Compatible part numbers:
-- U262-241N-4BV60 @ LCSC
-- TYPE-C-31-M-04 @ LCSC
-- 10137062-00021LF(Amphenol ICC) @ Digikey
+- U262-241N-4BV60 from XKB Connectivity @ LCSC
+- TYPE-C-31-M-04 from Korean Hroparts Elec @ LCSC
+- 10137062-00021LF from Amphenol ICC @ Digikey
 
 ## Stuff to remember
 - When placing resistors for CC1 & CC2, keep in mind that DFP (PC/Hub or similar) is the host offering power to a UFP (Device). This way, the Device can know how much power the Host can supply and act based on that.
