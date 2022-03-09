@@ -8,18 +8,28 @@ Price is also relevant. Amphenol and Molex are fantastic connectors, but of the 
 
 If you just want a USB C connector for applying power, you can get this from a good Korean factory for 0.21 USD at LCSC. This is if you only buy a single connector. Buy a hundred and save 7 of those cents - down to 0.14 USD. Want USB 2.0? The price starts at 0.38 USD for just one, but gets down to 0.24 USD if you buy a hundred. A fully featured USB 3.1 connector is 0.81 USD, so still below half the price.
 
-## Errata
-''2020.05.20:''
+## Versions. Errata
+
+### 2022.03.09
+Four new footprints added:
+- TYPE-C-31-M-14 (USB3.0 Type C, edge/flush mounted) from Korean Hroparts Elec @ LCSC
+- U-A-39DS-Y-1 (USB3.0 Type A) from Korean Hroparts Elec @ LCSC
+- U-B-M9DD-W-1 (USB3.0 Type B) from Korean Hroparts Elec @ LCSC
+- U-F-10SW-Y-1 (USB3.0 Micro B) from Korean Hroparts Elec @ LCSC
+
+Minor tweak to power pads on two footprints. All footprints have been tested and used extensively in several boards now.
+
+### 2020.05.20
 Got the second batch of boards. All 3 footprints are now golden!
 
-''2020.05.04:''
+### 2020.05.04
 Got the first batch of boards today. The Power board was good, the USB 2.0 board required that you cut off two tiny alignment pins (plastic) that I forgot to include in the footprint, but works otherwise great. The USB 3.1 board has an error that cannot be fixed (pins in wrong place), so I've made a new version of that and sent it to PCBWay. All footprints in the repo should now be good, but it'll take about a week until I can confirm that.
 
 ## Kicad files:
 I've made breakout boards to test my footprints. The files are available in the Kicad repo and these are now tested and confirmed. I placed orders for the first boards on April 25th 2020.
  
 ### Footprints
-Library with footprints for a few low priced Type C connectors that I'm currently testing from "Korean Hroparts Elec". I buy the parts at LCSC.
+Library with footprints for low priced Type C & USB3 connectors and alternates.
 
 ### USB-C-Power-tester
 Simple Breakout board allowing you to play with setting CC1 & CC2 using easy to solder 0805 resistors. Read up on the [USB-IF spec and what resistors to use here](http://ww1.microchip.com/downloads/en/appnotes/00001953a.pdf). These connectors offer no data, but can let you pull or deliver up to 3A/5V power from capable devices.
