@@ -9,7 +9,9 @@ Price is also relevant. Amphenol and Molex are fantastic connectors, but of the 
 If you just want a USB C connector for applying power, you can get this from a good Korean factory for 0.21 USD at LCSC. This is if you only buy a single connector. Buy a hundred and save 7 of those cents - down to 0.14 USD. Want USB 2.0? The price starts at 0.38 USD for just one, but gets down to 0.24 USD if you buy a hundred. A fully featured USB 3.1 connector is 0.81 USD, so still below half the price.
 
 ## A quick note on durability
-I've now used the USB connectors from Korean Hroparts Elec in more than 5k boards and they hold up well - even for things like devboards that are plugged in/out daily. TYPE-C-31-M-12 used to be my goto part for USB2.0, but I've found that the official footprint for these can cause problems with many board houses. The pins on the part only stick out 0.9mm, so if the board shop don't fully fill the hole - you'll have cases where the part rips off. I've now started using TYPE-C-31-M-14 as the new goto. This one is seated inside the board and I've never had a soldering problem with it. I'm not 100% sure why it's so much more successful, but I guess it's something about wicking during selective/wave soldering.
+I've now used the USB connectors from Korean Hroparts Elec in more than 5k boards and they hold up well - even for things like devboards that are plugged in/out daily.
+
+TYPE-C-31-M-12 used to be my goto part for USB2.0, but I've found that the official footprint for these can cause problems with many board houses. The pins on the part only stick out 0.9mm, so if the board shop don't fully fill the 1.6mm hole - you'll have cases where the part rips off. I've now started using TYPE-C-31-M-14 as the new goto. This one is seated inside the board and I've never had a soldering problem with it. I'm not 100% sure why it's so much more successful, but I guess it's something about wicking during selective/wave soldering.
 
 ## Versions. Errata
 
