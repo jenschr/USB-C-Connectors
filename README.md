@@ -11,7 +11,7 @@ If you just want a USB C connector for applying power, you can get this from a g
 ## A quick note on durability
 I've now used the USB connectors from Korean Hroparts Elec in more than 5k boards and they hold up well - even for things like devboards that are plugged in/out daily.
 
-TYPE-C-31-M-12 used to be my goto part for USB2.0, but I've found that the official footprint for these can cause problems with many board houses. The pins on the part only stick out 0.9mm, so if the board shop don't fully fill the 1.6mm hole - you'll have cases where the part rips off. I've now started using TYPE-C-31-M-14 as the new goto. This one is seated inside the board and I've never had a soldering problem with it. I'm not 100% sure why it's so much more successful, but I guess it's something about wicking during selective/wave soldering.
+TYPE-C-31-M-12 used to be my goto part for USB2.0, but I've found that the official footprint for these can cause problems with many board houses. The pins on the part only stick out 0.9mm, so if the board shop don't fully fill the 1.6mm hole - you'll have cases where the part rips off. I've now started using TYPE-C-31-M-14 as the new goto. This one is seated inside the board and I've never had a soldering problem with it. I'm not 100% sure why it's so much more successful, but I guess it's something about wicking during selective/wave soldering. When using TYPE-C-31-M-14, you should be aware of it's rather low ampacity rating (1A) compared to many other Type C connectors (typically 5A).
 
 ## Versions. Errata
 
